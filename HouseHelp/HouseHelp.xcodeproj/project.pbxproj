@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152C8A3B180314A0003E6A41 /* hhappicon8080.png in Resources */ = {isa = PBXBuildFile; fileRef = 152C8A3A180314A0003E6A41 /* hhappicon8080.png */; };
+		152C8A3D1803152D003E6A41 /* hhappicon120120.png in Resources */ = {isa = PBXBuildFile; fileRef = 152C8A3C1803152D003E6A41 /* hhappicon120120.png */; };
+		152C8A3F18031577003E6A41 /* hhappicon152152.png in Resources */ = {isa = PBXBuildFile; fileRef = 152C8A3E18031577003E6A41 /* hhappicon152152.png */; };
+		152C8A41180315C5003E6A41 /* hhappicon7676.png in Resources */ = {isa = PBXBuildFile; fileRef = 152C8A40180315C5003E6A41 /* hhappicon7676.png */; };
+		153F11D317F313C6009AF753 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 153F11C517F313C6009AF753 /* previous.png */; };
+		153F11D417F313C6009AF753 /* recipeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 153F11C617F313C6009AF753 /* recipeicon.png */; };
+		153F11D517F313C6009AF753 /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 153F11C717F313C6009AF753 /* home-icon.png */; };
+		153F11D617F313C6009AF753 /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 153F11C817F313C6009AF753 /* homeicon.png */; };
+		153F11D717F313C6009AF753 /* blackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 153F11C917F313C6009AF753 /* blackground.jpg */; };
+		153F11E417F31553009AF753 /* KitchenBuddyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11E217F31553009AF753 /* KitchenBuddyView.m */; };
+		153F11E717F31B99009AF753 /* DatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11E617F31B99009AF753 /* DatabaseHandler.m */; };
+		153F11EA17F3200F009AF753 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 153F11E917F3200F009AF753 /* libsqlite3.dylib */; };
+		153F11ED17F7C33C009AF753 /* RecipeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11EC17F7C33C009AF753 /* RecipeHandler.m */; };
+		153F11EF17F7C9EF009AF753 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 153F11EE17F7C9EF009AF753 /* test.txt */; };
+		153F11F217F7E899009AF753 /* DistinctRecipesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11F117F7E899009AF753 /* DistinctRecipesHandler.m */; };
+		153F11F517F84F60009AF753 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11F417F84F60009AF753 /* RecipeViewController.m */; };
+		153F11F817F84FF4009AF753 /* RecipesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11F717F84FF4009AF753 /* RecipesView.m */; };
+		153F11FE17F85F59009AF753 /* KitchenTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F11FD17F85F59009AF753 /* KitchenTabBarController.m */; };
+		153F120517F86130009AF753 /* ExitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F120417F86130009AF753 /* ExitViewController.m */; };
+		1552A73B17F1D9B5009DFD65 /* KitchenBuddyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1552A73A17F1D9B5009DFD65 /* KitchenBuddyViewController.m */; };
+		1572A84017EBDD4A003F54F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572A83F17EBDD4A003F54F5 /* Foundation.framework */; };
+		1572A84217EBDD4A003F54F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572A84117EBDD4A003F54F5 /* CoreGraphics.framework */; };
+		1572A84417EBDD4A003F54F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572A84317EBDD4A003F54F5 /* UIKit.framework */; };
+		1572A84A17EBDD4A003F54F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1572A84817EBDD4A003F54F5 /* InfoPlist.strings */; };
+		1572A84C17EBDD4A003F54F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A84B17EBDD4A003F54F5 /* main.m */; };
+		1572A85017EBDD4A003F54F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A84F17EBDD4A003F54F5 /* AppDelegate.m */; };
+		1572A85217EBDD4A003F54F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1572A85117EBDD4A003F54F5 /* Images.xcassets */; };
+		1572A85917EBDD4A003F54F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572A85817EBDD4A003F54F5 /* XCTest.framework */; };
+		1572A85A17EBDD4A003F54F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572A83F17EBDD4A003F54F5 /* Foundation.framework */; };
+		1572A85B17EBDD4A003F54F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572A84317EBDD4A003F54F5 /* UIKit.framework */; };
+		1572A86317EBDD4A003F54F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1572A86117EBDD4A003F54F5 /* InfoPlist.strings */; };
+		1572A86517EBDD4A003F54F5 /* HouseHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A86417EBDD4A003F54F5 /* HouseHelpTests.m */; };
+		1572A87017EBDDAE003F54F5 /* HouseHelpMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A86F17EBDDAE003F54F5 /* HouseHelpMainViewController.m */; };
+		1572A87517EBDE85003F54F5 /* HouseHelpMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A87417EBDE85003F54F5 /* HouseHelpMainMenuView.m */; };
+		1572A88F17EEC777003F54F5 /* KitchenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A88E17EEC777003F54F5 /* KitchenViewController.m */; };
+		1572A89217EEDF37003F54F5 /* KitchenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A89117EEDF37003F54F5 /* KitchenView.m */; };
+		15957C4417FC1CFB00561519 /* ProceduresHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957C4317FC1CFB00561519 /* ProceduresHandler.m */; };
+		15957C4617FC805A00561519 /* woodtexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15957C4517FC805A00561519 /* woodtexture.jpg */; };
+		15957C4817FC82AF00561519 /* addicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C4717FC82AF00561519 /* addicon.png */; };
+		15957C5917FCF95000561519 /* glossary.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C5417FCF95000561519 /* glossary.png */; };
+		15957C5A17FCF95000561519 /* groceryList.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C5517FCF95000561519 /* groceryList.png */; };
+		15957C5B17FCF95000561519 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C5617FCF95000561519 /* home.png */; };
+		15957C5C17FCF95000561519 /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C5717FCF95000561519 /* tips.png */; };
+		15957C5D17FCF95000561519 /* tools.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C5817FCF95000561519 /* tools.png */; };
+		15957C5F17FD016F00561519 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C5E17FD016D00561519 /* 53-house.png */; };
+		15957C6217FD039700561519 /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C6017FD039700561519 /* 48-fork-and-knife.png */; };
+		15957C6317FD039700561519 /* 102-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C6117FD039700561519 /* 102-walk.png */; };
+		15957C6617FD33B100561519 /* AddRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957C6517FD33B100561519 /* AddRecipeViewController.m */; };
+		15957C6917FD341E00561519 /* AddRecipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957C6817FD341E00561519 /* AddRecipeView.m */; };
+		15957C6C17FE436500561519 /* buttongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C6B17FE436500561519 /* buttongray.png */; };
+		15957C6F17FE490900561519 /* IngredientsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957C6E17FE490900561519 /* IngredientsHandler.m */; };
+		15957C7217FE535D00561519 /* houseHelp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C7017FE535D00561519 /* houseHelp1.png */; };
+		15957C7317FE535D00561519 /* houseHelp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C7117FE535D00561519 /* houseHelp2.png */; };
+		15957C951801821900561519 /* AddRecipesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957C941801821900561519 /* AddRecipesScrollView.m */; };
+		15957C971801B4B600561519 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C961801B4B600561519 /* check.png */; };
+		15957C991801B5A300561519 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957C981801B5A300561519 /* checkbox.png */; };
+		15957CAA1802E7D400561519 /* blackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15957C9C1802E7D400561519 /* blackground.jpg */; };
+		15957CAF1802E7D400561519 /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CA11802E7D400561519 /* home-icon.png */; };
+		15957CB01802E7D400561519 /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CA21802E7D400561519 /* homeicon.png */; };
+		15957CB41802E7D400561519 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CA61802E7D400561519 /* previous.png */; };
+		15957CB51802E7D400561519 /* recipeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CA71802E7D400561519 /* recipeicon.png */; };
+		15957CB91802E8A000561519 /* hhelp.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CB81802E8A000561519 /* hhelp.png */; };
+		15957CBF1802E8E400561519 /* living.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CBA1802E8E400561519 /* living.png */; };
+		15957CC01802E8E400561519 /* kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CBB1802E8E400561519 /* kitchen.png */; };
+		15957CC11802E8E400561519 /* garage.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CBC1802E8E400561519 /* garage.png */; };
+		15957CC21802E8E400561519 /* dining.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CBD1802E8E400561519 /* dining.png */; };
+		15957CC31802E8E400561519 /* bathroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 15957CBE1802E8E400561519 /* bathroom.png */; };
+		15957CC61802F20700561519 /* TipsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CC51802F20700561519 /* TipsHandler.m */; };
+		15957CC91802F4BB00561519 /* GarageTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CC81802F4BB00561519 /* GarageTabBarController.m */; };
+		15957CCC1802F6C100561519 /* GarageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CCB1802F6C100561519 /* GarageViewController.m */; };
+		15957CCF1802F71200561519 /* GarageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CCE1802F71200561519 /* GarageView.m */; };
+		15957CD21802FD1600561519 /* LivingroomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CD11802FD1600561519 /* LivingroomTabBarController.m */; };
+		15957CD71802FD6C00561519 /* LivingroomExitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CD41802FD6C00561519 /* LivingroomExitViewController.m */; };
+		15957CD81802FD6C00561519 /* LivingroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CD61802FD6C00561519 /* LivingroomViewController.m */; };
+		15957CDC1802FDA800561519 /* LivingroomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CDA1802FDA800561519 /* LivingroomView.m */; };
+		15957CE2180306CA00561519 /* DiningroomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CE0180306CA00561519 /* DiningroomTabBarController.m */; };
+		15957CE61803070000561519 /* DiningroomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CE41803070000561519 /* DiningroomView.m */; };
+		15957CEB1803071300561519 /* DiningroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CE71803071300561519 /* DiningroomViewController.m */; };
+		15957CEC1803071300561519 /* DiningroomExitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CEA1803071300561519 /* DiningroomExitViewController.m */; };
+		15957CEF18030EF700561519 /* RestroomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CED18030EF700561519 /* RestroomTabBarController.m */; };
+		15957CF418030F0F00561519 /* RestroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CF018030F0F00561519 /* RestroomViewController.m */; };
+		15957CF518030F0F00561519 /* RestroomExitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CF218030F0F00561519 /* RestroomExitViewController.m */; };
+		15957CF918030F1F00561519 /* RestroomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15957CF718030F1F00561519 /* RestroomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1572A85C17EBDD4A003F54F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1572A83417EBDD4A003F54F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1572A83B17EBDD4A003F54F5;
+			remoteInfo = HouseHelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152C8A3A180314A0003E6A41 /* hhappicon8080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hhappicon8080.png; sourceTree = "<group>"; };
+		152C8A3C1803152D003E6A41 /* hhappicon120120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hhappicon120120.png; sourceTree = "<group>"; };
+		152C8A3E18031577003E6A41 /* hhappicon152152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hhappicon152152.png; sourceTree = "<group>"; };
+		152C8A40180315C5003E6A41 /* hhappicon7676.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hhappicon7676.png; sourceTree = "<group>"; };
+		153F11C517F313C6009AF753 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = previous.png; path = Image/previous.png; sourceTree = "<group>"; };
+		153F11C617F313C6009AF753 /* recipeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recipeicon.png; path = Image/recipeicon.png; sourceTree = "<group>"; };
+		153F11C717F313C6009AF753 /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-icon.png"; path = "Image/home-icon.png"; sourceTree = "<group>"; };
+		153F11C817F313C6009AF753 /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeicon.png; path = Image/homeicon.png; sourceTree = "<group>"; };
+		153F11C917F313C6009AF753 /* blackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blackground.jpg; path = Image/blackground.jpg; sourceTree = "<group>"; };
+		153F11E117F31529009AF753 /* KitchenBuddyViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenBuddyViewDelegate.h; path = View/KitchenBuddyViewDelegate.h; sourceTree = "<group>"; };
+		153F11E217F31553009AF753 /* KitchenBuddyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KitchenBuddyView.m; path = View/KitchenBuddyView.m; sourceTree = "<group>"; };
+		153F11E317F31553009AF753 /* KitchenBuddyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenBuddyView.h; path = View/KitchenBuddyView.h; sourceTree = "<group>"; };
+		153F11E517F31B99009AF753 /* DatabaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseHandler.h; path = NSObject/DatabaseHandler.h; sourceTree = "<group>"; };
+		153F11E617F31B99009AF753 /* DatabaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseHandler.m; path = NSObject/DatabaseHandler.m; sourceTree = "<group>"; };
+		153F11E917F3200F009AF753 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		153F11EB17F7C33C009AF753 /* RecipeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHandler.h; path = NSObject/RecipeHandler.h; sourceTree = "<group>"; };
+		153F11EC17F7C33C009AF753 /* RecipeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHandler.m; path = NSObject/RecipeHandler.m; sourceTree = "<group>"; };
+		153F11EE17F7C9EF009AF753 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.txt; path = ../../../../../Desktop/test.txt; sourceTree = "<group>"; };
+		153F11F017F7E899009AF753 /* DistinctRecipesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DistinctRecipesHandler.h; path = NSObject/DistinctRecipesHandler.h; sourceTree = "<group>"; };
+		153F11F117F7E899009AF753 /* DistinctRecipesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DistinctRecipesHandler.m; path = NSObject/DistinctRecipesHandler.m; sourceTree = "<group>"; };
+		153F11F317F84F60009AF753 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeViewController.h; path = ViewControllers/RecipeViewController.h; sourceTree = "<group>"; };
+		153F11F417F84F60009AF753 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeViewController.m; path = ViewControllers/RecipeViewController.m; sourceTree = "<group>"; };
+		153F11F617F84FF4009AF753 /* RecipesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesView.h; path = View/RecipesView.h; sourceTree = "<group>"; };
+		153F11F717F84FF4009AF753 /* RecipesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesView.m; path = View/RecipesView.m; sourceTree = "<group>"; };
+		153F11FB17F857EE009AF753 /* RecipesViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesViewDelegate.h; path = View/RecipesViewDelegate.h; sourceTree = "<group>"; };
+		153F11FC17F85F59009AF753 /* KitchenTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenTabBarController.h; path = TabBarController/KitchenTabBarController.h; sourceTree = "<group>"; };
+		153F11FD17F85F59009AF753 /* KitchenTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KitchenTabBarController.m; path = TabBarController/KitchenTabBarController.m; sourceTree = "<group>"; };
+		153F120317F86130009AF753 /* ExitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExitViewController.h; path = ViewControllers/ExitViewController.h; sourceTree = "<group>"; };
+		153F120417F86130009AF753 /* ExitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExitViewController.m; path = ViewControllers/ExitViewController.m; sourceTree = "<group>"; };
+		1552A73917F1D9B5009DFD65 /* KitchenBuddyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenBuddyViewController.h; path = ViewControllers/KitchenBuddyViewController.h; sourceTree = "<group>"; };
+		1552A73A17F1D9B5009DFD65 /* KitchenBuddyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KitchenBuddyViewController.m; path = ViewControllers/KitchenBuddyViewController.m; sourceTree = "<group>"; };
+		1572A83C17EBDD4A003F54F5 /* HouseHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1572A83F17EBDD4A003F54F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1572A84117EBDD4A003F54F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1572A84317EBDD4A003F54F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1572A84717EBDD4A003F54F5 /* HouseHelp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseHelp-Info.plist"; sourceTree = "<group>"; };
+		1572A84917EBDD4A003F54F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1572A84B17EBDD4A003F54F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1572A84D17EBDD4A003F54F5 /* HouseHelp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HouseHelp-Prefix.pch"; sourceTree = "<group>"; };
+		1572A84E17EBDD4A003F54F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1572A84F17EBDD4A003F54F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1572A85117EBDD4A003F54F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1572A85717EBDD4A003F54F5 /* HouseHelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseHelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1572A85817EBDD4A003F54F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1572A86017EBDD4A003F54F5 /* HouseHelpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseHelpTests-Info.plist"; sourceTree = "<group>"; };
+		1572A86217EBDD4A003F54F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1572A86417EBDD4A003F54F5 /* HouseHelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseHelpTests.m; sourceTree = "<group>"; };
+		1572A86E17EBDDAE003F54F5 /* HouseHelpMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HouseHelpMainViewController.h; path = ViewControllers/HouseHelpMainViewController.h; sourceTree = "<group>"; };
+		1572A86F17EBDDAE003F54F5 /* HouseHelpMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HouseHelpMainViewController.m; path = ViewControllers/HouseHelpMainViewController.m; sourceTree = "<group>"; };
+		1572A87317EBDE85003F54F5 /* HouseHelpMainMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HouseHelpMainMenuView.h; path = View/HouseHelpMainMenuView.h; sourceTree = "<group>"; };
+		1572A87417EBDE85003F54F5 /* HouseHelpMainMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HouseHelpMainMenuView.m; path = View/HouseHelpMainMenuView.m; sourceTree = "<group>"; };
+		1572A88D17EEC777003F54F5 /* KitchenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenViewController.h; path = ViewControllers/KitchenViewController.h; sourceTree = "<group>"; };
+		1572A88E17EEC777003F54F5 /* KitchenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KitchenViewController.m; path = ViewControllers/KitchenViewController.m; sourceTree = "<group>"; };
+		1572A89017EEDF37003F54F5 /* KitchenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenView.h; path = View/KitchenView.h; sourceTree = "<group>"; };
+		1572A89117EEDF37003F54F5 /* KitchenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KitchenView.m; path = View/KitchenView.m; sourceTree = "<group>"; };
+		1572A89317EEDFB9003F54F5 /* HouseHelpMainMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HouseHelpMainMenuDelegate.h; path = View/HouseHelpMainMenuDelegate.h; sourceTree = "<group>"; };
+		1572A89417EF12F1003F54F5 /* KitchenViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KitchenViewDelegate.h; path = View/KitchenViewDelegate.h; sourceTree = "<group>"; };
+		15957C4217FC1CFB00561519 /* ProceduresHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProceduresHandler.h; path = NSObject/ProceduresHandler.h; sourceTree = "<group>"; };
+		15957C4317FC1CFB00561519 /* ProceduresHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProceduresHandler.m; path = NSObject/ProceduresHandler.m; sourceTree = "<group>"; };
+		15957C4517FC805A00561519 /* woodtexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodtexture.jpg; sourceTree = "<group>"; };
+		15957C4717FC82AF00561519 /* addicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addicon.png; sourceTree = "<group>"; };
+		15957C5417FCF95000561519 /* glossary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glossary.png; sourceTree = "<group>"; };
+		15957C5517FCF95000561519 /* groceryList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groceryList.png; sourceTree = "<group>"; };
+		15957C5617FCF95000561519 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		15957C5717FCF95000561519 /* tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips.png; sourceTree = "<group>"; };
+		15957C5817FCF95000561519 /* tools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tools.png; sourceTree = "<group>"; };
+		15957C5E17FD016D00561519 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		15957C6017FD039700561519 /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife.png"; sourceTree = "<group>"; };
+		15957C6117FD039700561519 /* 102-walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk.png"; sourceTree = "<group>"; };
+		15957C6417FD33B100561519 /* AddRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipeViewController.h; path = ViewControllers/AddRecipeViewController.h; sourceTree = "<group>"; };
+		15957C6517FD33B100561519 /* AddRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRecipeViewController.m; path = ViewControllers/AddRecipeViewController.m; sourceTree = "<group>"; };
+		15957C6717FD341E00561519 /* AddRecipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipeView.h; path = View/AddRecipeView.h; sourceTree = "<group>"; };
+		15957C6817FD341E00561519 /* AddRecipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRecipeView.m; path = View/AddRecipeView.m; sourceTree = "<group>"; };
+		15957C6A17FD357400561519 /* AddRecipeViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipeViewDelegate.h; path = View/AddRecipeViewDelegate.h; sourceTree = "<group>"; };
+		15957C6B17FE436500561519 /* buttongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttongray.png; sourceTree = "<group>"; };
+		15957C6D17FE490900561519 /* IngredientsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IngredientsHandler.h; path = NSObject/IngredientsHandler.h; sourceTree = "<group>"; };
+		15957C6E17FE490900561519 /* IngredientsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IngredientsHandler.m; path = NSObject/IngredientsHandler.m; sourceTree = "<group>"; };
+		15957C7017FE535D00561519 /* houseHelp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseHelp1.png; sourceTree = "<group>"; };
+		15957C7117FE535D00561519 /* houseHelp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseHelp2.png; sourceTree = "<group>"; };
+		15957C931801821900561519 /* AddRecipesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipesScrollView.h; path = View/AddRecipesScrollView.h; sourceTree = "<group>"; };
+		15957C941801821900561519 /* AddRecipesScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRecipesScrollView.m; path = View/AddRecipesScrollView.m; sourceTree = "<group>"; };
+		15957C961801B4B600561519 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		15957C981801B5A300561519 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		15957C9A1802D31800561519 /* AddRecipeViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipeViewControllerDelegate.h; path = ViewControllers/AddRecipeViewControllerDelegate.h; sourceTree = "<group>"; };
+		15957C9C1802E7D400561519 /* blackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackground.jpg; sourceTree = "<group>"; };
+		15957CA11802E7D400561519 /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon.png"; sourceTree = "<group>"; };
+		15957CA21802E7D400561519 /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeicon.png; sourceTree = "<group>"; };
+		15957CA61802E7D400561519 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		15957CA71802E7D400561519 /* recipeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipeicon.png; sourceTree = "<group>"; };
+		15957CB81802E8A000561519 /* hhelp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hhelp.png; sourceTree = "<group>"; };
+		15957CBA1802E8E400561519 /* living.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = living.png; sourceTree = "<group>"; };
+		15957CBB1802E8E400561519 /* kitchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitchen.png; sourceTree = "<group>"; };
+		15957CBC1802E8E400561519 /* garage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garage.png; sourceTree = "<group>"; };
+		15957CBD1802E8E400561519 /* dining.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dining.png; sourceTree = "<group>"; };
+		15957CBE1802E8E400561519 /* bathroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bathroom.png; sourceTree = "<group>"; };
+		15957CC41802F20700561519 /* TipsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipsHandler.h; path = NSObject/TipsHandler.h; sourceTree = "<group>"; };
+		15957CC51802F20700561519 /* TipsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipsHandler.m; path = NSObject/TipsHandler.m; sourceTree = "<group>"; };
+		15957CC71802F4BB00561519 /* GarageTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageTabBarController.h; path = TabBarController/GarageTabBarController.h; sourceTree = "<group>"; };
+		15957CC81802F4BB00561519 /* GarageTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageTabBarController.m; path = TabBarController/GarageTabBarController.m; sourceTree = "<group>"; };
+		15957CCA1802F6C100561519 /* GarageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageViewController.h; path = ViewControllers/GarageViewController.h; sourceTree = "<group>"; };
+		15957CCB1802F6C100561519 /* GarageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageViewController.m; path = ViewControllers/GarageViewController.m; sourceTree = "<group>"; };
+		15957CCD1802F71200561519 /* GarageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageView.h; path = View/GarageView.h; sourceTree = "<group>"; };
+		15957CCE1802F71200561519 /* GarageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageView.m; path = View/GarageView.m; sourceTree = "<group>"; };
+		15957CD01802FD1600561519 /* LivingroomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingroomTabBarController.h; sourceTree = "<group>"; };
+		15957CD11802FD1600561519 /* LivingroomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingroomTabBarController.m; sourceTree = "<group>"; };
+		15957CD31802FD6C00561519 /* LivingroomExitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingroomExitViewController.h; sourceTree = "<group>"; };
+		15957CD41802FD6C00561519 /* LivingroomExitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingroomExitViewController.m; sourceTree = "<group>"; };
+		15957CD51802FD6C00561519 /* LivingroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingroomViewController.h; sourceTree = "<group>"; };
+		15957CD61802FD6C00561519 /* LivingroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingroomViewController.m; sourceTree = "<group>"; };
+		15957CD91802FDA800561519 /* LivingroomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingroomView.h; sourceTree = "<group>"; };
+		15957CDA1802FDA800561519 /* LivingroomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingroomView.m; sourceTree = "<group>"; };
+		15957CDB1802FDA800561519 /* LivingroomViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingroomViewDelegate.h; sourceTree = "<group>"; };
+		15957CE0180306CA00561519 /* DiningroomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiningroomTabBarController.m; path = TabBarController/DiningroomTabBarController.m; sourceTree = "<group>"; };
+		15957CE1180306CA00561519 /* DiningroomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiningroomTabBarController.h; path = TabBarController/DiningroomTabBarController.h; sourceTree = "<group>"; };
+		15957CE31803070000561519 /* DiningroomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningroomView.h; sourceTree = "<group>"; };
+		15957CE41803070000561519 /* DiningroomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningroomView.m; sourceTree = "<group>"; };
+		15957CE51803070000561519 /* DiningroomViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningroomViewDelegate.h; sourceTree = "<group>"; };
+		15957CE71803071300561519 /* DiningroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningroomViewController.m; sourceTree = "<group>"; };
+		15957CE81803071300561519 /* DiningroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningroomViewController.h; sourceTree = "<group>"; };
+		15957CE91803071300561519 /* DiningroomExitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningroomExitViewController.h; sourceTree = "<group>"; };
+		15957CEA1803071300561519 /* DiningroomExitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningroomExitViewController.m; sourceTree = "<group>"; };
+		15957CED18030EF700561519 /* RestroomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestroomTabBarController.m; sourceTree = "<group>"; };
+		15957CEE18030EF700561519 /* RestroomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestroomTabBarController.h; sourceTree = "<group>"; };
+		15957CF018030F0F00561519 /* RestroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestroomViewController.m; sourceTree = "<group>"; };
+		15957CF118030F0F00561519 /* RestroomExitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestroomExitViewController.h; sourceTree = "<group>"; };
+		15957CF218030F0F00561519 /* RestroomExitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestroomExitViewController.m; sourceTree = "<group>"; };
+		15957CF318030F0F00561519 /* RestroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestroomViewController.h; sourceTree = "<group>"; };
+		15957CF618030F1F00561519 /* RestroomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestroomView.h; sourceTree = "<group>"; };
+		15957CF718030F1F00561519 /* RestroomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestroomView.m; sourceTree = "<group>"; };
+		15957CF818030F1F00561519 /* RestroomViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestroomViewDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1572A83917EBDD4A003F54F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153F11EA17F3200F009AF753 /* libsqlite3.dylib in Frameworks */,
+				1572A84217EBDD4A003F54F5 /* CoreGraphics.framework in Frameworks */,
+				1572A84417EBDD4A003F54F5 /* UIKit.framework in Frameworks */,
+				1572A84017EBDD4A003F54F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1572A85417EBDD4A003F54F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572A85917EBDD4A003F54F5 /* XCTest.framework in Frameworks */,
+				1572A85B17EBDD4A003F54F5 /* UIKit.framework in Frameworks */,
+				1572A85A17EBDD4A003F54F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153F11E817F31BA4009AF753 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				153F11E517F31B99009AF753 /* DatabaseHandler.h */,
+				153F11E617F31B99009AF753 /* DatabaseHandler.m */,
+				153F11EE17F7C9EF009AF753 /* test.txt */,
+				153F11EB17F7C33C009AF753 /* RecipeHandler.h */,
+				153F11EC17F7C33C009AF753 /* RecipeHandler.m */,
+				153F11F017F7E899009AF753 /* DistinctRecipesHandler.h */,
+				153F11F117F7E899009AF753 /* DistinctRecipesHandler.m */,
+				15957C4217FC1CFB00561519 /* ProceduresHandler.h */,
+				15957C4317FC1CFB00561519 /* ProceduresHandler.m */,
+				15957C6D17FE490900561519 /* IngredientsHandler.h */,
+				15957C6E17FE490900561519 /* IngredientsHandler.m */,
+				15957CC41802F20700561519 /* TipsHandler.h */,
+				15957CC51802F20700561519 /* TipsHandler.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		153F11FF17F85F64009AF753 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				15957CED18030EF700561519 /* RestroomTabBarController.m */,
+				15957CEE18030EF700561519 /* RestroomTabBarController.h */,
+				15957CE0180306CA00561519 /* DiningroomTabBarController.m */,
+				15957CE1180306CA00561519 /* DiningroomTabBarController.h */,
+				15957CD01802FD1600561519 /* LivingroomTabBarController.h */,
+				15957CD11802FD1600561519 /* LivingroomTabBarController.m */,
+				153F11FC17F85F59009AF753 /* KitchenTabBarController.h */,
+				153F11FD17F85F59009AF753 /* KitchenTabBarController.m */,
+				15957CC71802F4BB00561519 /* GarageTabBarController.h */,
+				15957CC81802F4BB00561519 /* GarageTabBarController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		1572A83317EBDD4A003F54F5 = {
+			isa = PBXGroup;
+			children = (
+				1572A84517EBDD4A003F54F5 /* HouseHelp */,
+				1572A85E17EBDD4A003F54F5 /* HouseHelpTests */,
+				1572A83E17EBDD4A003F54F5 /* Frameworks */,
+				1572A83D17EBDD4A003F54F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1572A83D17EBDD4A003F54F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1572A83C17EBDD4A003F54F5 /* HouseHelp.app */,
+				1572A85717EBDD4A003F54F5 /* HouseHelpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1572A83E17EBDD4A003F54F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				153F11E917F3200F009AF753 /* libsqlite3.dylib */,
+				1572A83F17EBDD4A003F54F5 /* Foundation.framework */,
+				1572A84117EBDD4A003F54F5 /* CoreGraphics.framework */,
+				1572A84317EBDD4A003F54F5 /* UIKit.framework */,
+				1572A85817EBDD4A003F54F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1572A84517EBDD4A003F54F5 /* HouseHelp */ = {
+			isa = PBXGroup;
+			children = (
+				153F11FF17F85F64009AF753 /* TabBarController */,
+				1572A87617EBDFBD003F54F5 /* Images */,
+				153F11E817F31BA4009AF753 /* Class */,
+				1572A87217EBDE5B003F54F5 /* ViewController */,
+				1572A87117EBDE50003F54F5 /* View */,
+				1572A84F17EBDD4A003F54F5 /* AppDelegate.m */,
+				1572A84E17EBDD4A003F54F5 /* AppDelegate.h */,
+				1572A85117EBDD4A003F54F5 /* Images.xcassets */,
+				1572A84617EBDD4A003F54F5 /* Supporting Files */,
+			);
+			path = HouseHelp;
+			sourceTree = "<group>";
+		};
+		1572A84617EBDD4A003F54F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1572A84717EBDD4A003F54F5 /* HouseHelp-Info.plist */,
+				1572A84817EBDD4A003F54F5 /* InfoPlist.strings */,
+				1572A84B17EBDD4A003F54F5 /* main.m */,
+				1572A84D17EBDD4A003F54F5 /* HouseHelp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1572A85E17EBDD4A003F54F5 /* HouseHelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				1572A86417EBDD4A003F54F5 /* HouseHelpTests.m */,
+				1572A85F17EBDD4A003F54F5 /* Supporting Files */,
+			);
+			path = HouseHelpTests;
+			sourceTree = "<group>";
+		};
+		1572A85F17EBDD4A003F54F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1572A86017EBDD4A003F54F5 /* HouseHelpTests-Info.plist */,
+				1572A86117EBDD4A003F54F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1572A87117EBDE50003F54F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15957CE31803070000561519 /* DiningroomView.h */,
+				15957CF618030F1F00561519 /* RestroomView.h */,
+				15957CF718030F1F00561519 /* RestroomView.m */,
+				15957CF818030F1F00561519 /* RestroomViewDelegate.h */,
+				15957CE41803070000561519 /* DiningroomView.m */,
+				15957CE51803070000561519 /* DiningroomViewDelegate.h */,
+				15957CD91802FDA800561519 /* LivingroomView.h */,
+				15957CDA1802FDA800561519 /* LivingroomView.m */,
+				15957CDB1802FDA800561519 /* LivingroomViewDelegate.h */,
+				153F11E317F31553009AF753 /* KitchenBuddyView.h */,
+				153F11E217F31553009AF753 /* KitchenBuddyView.m */,
+				1572A89317EEDFB9003F54F5 /* HouseHelpMainMenuDelegate.h */,
+				1572A87317EBDE85003F54F5 /* HouseHelpMainMenuView.h */,
+				1572A87417EBDE85003F54F5 /* HouseHelpMainMenuView.m */,
+				1572A89017EEDF37003F54F5 /* KitchenView.h */,
+				1572A89117EEDF37003F54F5 /* KitchenView.m */,
+				1572A89417EF12F1003F54F5 /* KitchenViewDelegate.h */,
+				153F11E117F31529009AF753 /* KitchenBuddyViewDelegate.h */,
+				153F11FB17F857EE009AF753 /* RecipesViewDelegate.h */,
+				153F11F617F84FF4009AF753 /* RecipesView.h */,
+				153F11F717F84FF4009AF753 /* RecipesView.m */,
+				15957C6717FD341E00561519 /* AddRecipeView.h */,
+				15957C6817FD341E00561519 /* AddRecipeView.m */,
+				15957C6A17FD357400561519 /* AddRecipeViewDelegate.h */,
+				15957C931801821900561519 /* AddRecipesScrollView.h */,
+				15957C941801821900561519 /* AddRecipesScrollView.m */,
+				15957CCD1802F71200561519 /* GarageView.h */,
+				15957CCE1802F71200561519 /* GarageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1572A87217EBDE5B003F54F5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15957CF018030F0F00561519 /* RestroomViewController.m */,
+				15957CF118030F0F00561519 /* RestroomExitViewController.h */,
+				15957CF218030F0F00561519 /* RestroomExitViewController.m */,
+				15957CF318030F0F00561519 /* RestroomViewController.h */,
+				15957CE71803071300561519 /* DiningroomViewController.m */,
+				15957CE81803071300561519 /* DiningroomViewController.h */,
+				15957CE91803071300561519 /* DiningroomExitViewController.h */,
+				15957CEA1803071300561519 /* DiningroomExitViewController.m */,
+				15957CD31802FD6C00561519 /* LivingroomExitViewController.h */,
+				15957CD41802FD6C00561519 /* LivingroomExitViewController.m */,
+				15957CD51802FD6C00561519 /* LivingroomViewController.h */,
+				15957CD61802FD6C00561519 /* LivingroomViewController.m */,
+				153F120317F86130009AF753 /* ExitViewController.h */,
+				153F120417F86130009AF753 /* ExitViewController.m */,
+				1572A86E17EBDDAE003F54F5 /* HouseHelpMainViewController.h */,
+				1572A86F17EBDDAE003F54F5 /* HouseHelpMainViewController.m */,
+				1572A88D17EEC777003F54F5 /* KitchenViewController.h */,
+				1572A88E17EEC777003F54F5 /* KitchenViewController.m */,
+				1552A73917F1D9B5009DFD65 /* KitchenBuddyViewController.h */,
+				1552A73A17F1D9B5009DFD65 /* KitchenBuddyViewController.m */,
+				153F11F317F84F60009AF753 /* RecipeViewController.h */,
+				153F11F417F84F60009AF753 /* RecipeViewController.m */,
+				15957C6417FD33B100561519 /* AddRecipeViewController.h */,
+				15957C6517FD33B100561519 /* AddRecipeViewController.m */,
+				15957C9A1802D31800561519 /* AddRecipeViewControllerDelegate.h */,
+				15957CCA1802F6C100561519 /* GarageViewController.h */,
+				15957CCB1802F6C100561519 /* GarageViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1572A87617EBDFBD003F54F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				152C8A40180315C5003E6A41 /* hhappicon7676.png */,
+				152C8A3E18031577003E6A41 /* hhappicon152152.png */,
+				152C8A3C1803152D003E6A41 /* hhappicon120120.png */,
+				152C8A3A180314A0003E6A41 /* hhappicon8080.png */,
+				15957CBA1802E8E400561519 /* living.png */,
+				15957CBB1802E8E400561519 /* kitchen.png */,
+				15957CBC1802E8E400561519 /* garage.png */,
+				15957CBD1802E8E400561519 /* dining.png */,
+				15957CBE1802E8E400561519 /* bathroom.png */,
+				15957CB81802E8A000561519 /* hhelp.png */,
+				15957C9B1802E7D400561519 /* Image */,
+				15957C981801B5A300561519 /* checkbox.png */,
+				15957C961801B4B600561519 /* check.png */,
+				15957C7017FE535D00561519 /* houseHelp1.png */,
+				15957C7117FE535D00561519 /* houseHelp2.png */,
+				15957C6B17FE436500561519 /* buttongray.png */,
+				15957C6017FD039700561519 /* 48-fork-and-knife.png */,
+				15957C6117FD039700561519 /* 102-walk.png */,
+				15957C5E17FD016D00561519 /* 53-house.png */,
+				15957C5417FCF95000561519 /* glossary.png */,
+				15957C5517FCF95000561519 /* groceryList.png */,
+				15957C5617FCF95000561519 /* home.png */,
+				15957C5717FCF95000561519 /* tips.png */,
+				15957C5817FCF95000561519 /* tools.png */,
+				15957C4717FC82AF00561519 /* addicon.png */,
+				15957C4517FC805A00561519 /* woodtexture.jpg */,
+				153F11C517F313C6009AF753 /* previous.png */,
+				153F11C617F313C6009AF753 /* recipeicon.png */,
+				153F11C717F313C6009AF753 /* home-icon.png */,
+				153F11C817F313C6009AF753 /* homeicon.png */,
+				153F11C917F313C6009AF753 /* blackground.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		15957C9B1802E7D400561519 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				15957C9C1802E7D400561519 /* blackground.jpg */,
+				15957CA11802E7D400561519 /* home-icon.png */,
+				15957CA21802E7D400561519 /* homeicon.png */,
+				15957CA61802E7D400561519 /* previous.png */,
+				15957CA71802E7D400561519 /* recipeicon.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1572A83B17EBDD4A003F54F5 /* HouseHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1572A86817EBDD4A003F54F5 /* Build configuration list for PBXNativeTarget "HouseHelp" */;
+			buildPhases = (
+				1572A83817EBDD4A003F54F5 /* Sources */,
+				1572A83917EBDD4A003F54F5 /* Frameworks */,
+				1572A83A17EBDD4A003F54F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseHelp;
+			productName = HouseHelp;
+			productReference = 1572A83C17EBDD4A003F54F5 /* HouseHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1572A85617EBDD4A003F54F5 /* HouseHelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1572A86B17EBDD4A003F54F5 /* Build configuration list for PBXNativeTarget "HouseHelpTests" */;
+			buildPhases = (
+				1572A85317EBDD4A003F54F5 /* Sources */,
+				1572A85417EBDD4A003F54F5 /* Frameworks */,
+				1572A85517EBDD4A003F54F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1572A85D17EBDD4A003F54F5 /* PBXTargetDependency */,
+			);
+			name = HouseHelpTests;
+			productName = HouseHelpTests;
+			productReference = 1572A85717EBDD4A003F54F5 /* HouseHelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1572A83417EBDD4A003F54F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = FastData;
+				TargetAttributes = {
+					1572A85617EBDD4A003F54F5 = {
+						TestTargetID = 1572A83B17EBDD4A003F54F5;
+					};
+				};
+			};
+			buildConfigurationList = 1572A83717EBDD4A003F54F5 /* Build configuration list for PBXProject "HouseHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1572A83317EBDD4A003F54F5;
+			productRefGroup = 1572A83D17EBDD4A003F54F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1572A83B17EBDD4A003F54F5 /* HouseHelp */,
+				1572A85617EBDD4A003F54F5 /* HouseHelpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1572A83A17EBDD4A003F54F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15957C5F17FD016F00561519 /* 53-house.png in Resources */,
+				15957CC31802E8E400561519 /* bathroom.png in Resources */,
+				15957C4817FC82AF00561519 /* addicon.png in Resources */,
+				15957C6217FD039700561519 /* 48-fork-and-knife.png in Resources */,
+				15957C7317FE535D00561519 /* houseHelp2.png in Resources */,
+				15957CC21802E8E400561519 /* dining.png in Resources */,
+				152C8A3D1803152D003E6A41 /* hhappicon120120.png in Resources */,
+				15957CC11802E8E400561519 /* garage.png in Resources */,
+				15957C5B17FCF95000561519 /* home.png in Resources */,
+				15957C5D17FCF95000561519 /* tools.png in Resources */,
+				1572A84A17EBDD4A003F54F5 /* InfoPlist.strings in Resources */,
+				15957C7217FE535D00561519 /* houseHelp1.png in Resources */,
+				15957CAA1802E7D400561519 /* blackground.jpg in Resources */,
+				153F11D317F313C6009AF753 /* previous.png in Resources */,
+				15957CBF1802E8E400561519 /* living.png in Resources */,
+				153F11D517F313C6009AF753 /* home-icon.png in Resources */,
+				15957C6C17FE436500561519 /* buttongray.png in Resources */,
+				15957CAF1802E7D400561519 /* home-icon.png in Resources */,
+				15957C6317FD039700561519 /* 102-walk.png in Resources */,
+				15957CC01802E8E400561519 /* kitchen.png in Resources */,
+				15957C971801B4B600561519 /* check.png in Resources */,
+				153F11D717F313C6009AF753 /* blackground.jpg in Resources */,
+				15957CB91802E8A000561519 /* hhelp.png in Resources */,
+				153F11D617F313C6009AF753 /* homeicon.png in Resources */,
+				153F11EF17F7C9EF009AF753 /* test.txt in Resources */,
+				153F11D417F313C6009AF753 /* recipeicon.png in Resources */,
+				15957C5A17FCF95000561519 /* groceryList.png in Resources */,
+				15957C991801B5A300561519 /* checkbox.png in Resources */,
+				152C8A3F18031577003E6A41 /* hhappicon152152.png in Resources */,
+				15957CB51802E7D400561519 /* recipeicon.png in Resources */,
+				15957CB41802E7D400561519 /* previous.png in Resources */,
+				15957CB01802E7D400561519 /* homeicon.png in Resources */,
+				15957C5C17FCF95000561519 /* tips.png in Resources */,
+				152C8A3B180314A0003E6A41 /* hhappicon8080.png in Resources */,
+				152C8A41180315C5003E6A41 /* hhappicon7676.png in Resources */,
+				15957C5917FCF95000561519 /* glossary.png in Resources */,
+				1572A85217EBDD4A003F54F5 /* Images.xcassets in Resources */,
+				15957C4617FC805A00561519 /* woodtexture.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1572A85517EBDD4A003F54F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572A86317EBDD4A003F54F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1572A83817EBDD4A003F54F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15957CE61803070000561519 /* DiningroomView.m in Sources */,
+				15957C6917FD341E00561519 /* AddRecipeView.m in Sources */,
+				153F11ED17F7C33C009AF753 /* RecipeHandler.m in Sources */,
+				1572A88F17EEC777003F54F5 /* KitchenViewController.m in Sources */,
+				153F11FE17F85F59009AF753 /* KitchenTabBarController.m in Sources */,
+				15957CC61802F20700561519 /* TipsHandler.m in Sources */,
+				153F11F217F7E899009AF753 /* DistinctRecipesHandler.m in Sources */,
+				15957CF918030F1F00561519 /* RestroomView.m in Sources */,
+				15957CF418030F0F00561519 /* RestroomViewController.m in Sources */,
+				1572A89217EEDF37003F54F5 /* KitchenView.m in Sources */,
+				15957CEC1803071300561519 /* DiningroomExitViewController.m in Sources */,
+				153F11F817F84FF4009AF753 /* RecipesView.m in Sources */,
+				15957CC91802F4BB00561519 /* GarageTabBarController.m in Sources */,
+				15957CD81802FD6C00561519 /* LivingroomViewController.m in Sources */,
+				15957CF518030F0F00561519 /* RestroomExitViewController.m in Sources */,
+				15957CEB1803071300561519 /* DiningroomViewController.m in Sources */,
+				153F120517F86130009AF753 /* ExitViewController.m in Sources */,
+				1572A87517EBDE85003F54F5 /* HouseHelpMainMenuView.m in Sources */,
+				15957C4417FC1CFB00561519 /* ProceduresHandler.m in Sources */,
+				15957CEF18030EF700561519 /* RestroomTabBarController.m in Sources */,
+				15957CD71802FD6C00561519 /* LivingroomExitViewController.m in Sources */,
+				1572A85017EBDD4A003F54F5 /* AppDelegate.m in Sources */,
+				15957C6617FD33B100561519 /* AddRecipeViewController.m in Sources */,
+				1572A84C17EBDD4A003F54F5 /* main.m in Sources */,
+				153F11E717F31B99009AF753 /* DatabaseHandler.m in Sources */,
+				153F11F517F84F60009AF753 /* RecipeViewController.m in Sources */,
+				15957CCF1802F71200561519 /* GarageView.m in Sources */,
+				15957CDC1802FDA800561519 /* LivingroomView.m in Sources */,
+				15957CCC1802F6C100561519 /* GarageViewController.m in Sources */,
+				15957C6F17FE490900561519 /* IngredientsHandler.m in Sources */,
+				153F11E417F31553009AF753 /* KitchenBuddyView.m in Sources */,
+				1552A73B17F1D9B5009DFD65 /* KitchenBuddyViewController.m in Sources */,
+				15957C951801821900561519 /* AddRecipesScrollView.m in Sources */,
+				15957CE2180306CA00561519 /* DiningroomTabBarController.m in Sources */,
+				1572A87017EBDDAE003F54F5 /* HouseHelpMainViewController.m in Sources */,
+				15957CD21802FD1600561519 /* LivingroomTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1572A85317EBDD4A003F54F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572A86517EBDD4A003F54F5 /* HouseHelpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1572A85D17EBDD4A003F54F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1572A83B17EBDD4A003F54F5 /* HouseHelp */;
+			targetProxy = 1572A85C17EBDD4A003F54F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1572A84817EBDD4A003F54F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1572A84917EBDD4A003F54F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1572A86117EBDD4A003F54F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1572A86217EBDD4A003F54F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1572A86617EBDD4A003F54F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1572A86717EBDD4A003F54F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1572A86917EBDD4A003F54F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseHelp/HouseHelp-Prefix.pch";
+				INFOPLIST_FILE = "HouseHelp/HouseHelp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1572A86A17EBDD4A003F54F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseHelp/HouseHelp-Prefix.pch";
+				INFOPLIST_FILE = "HouseHelp/HouseHelp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1572A86C17EBDD4A003F54F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HouseHelp.app/HouseHelp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseHelp/HouseHelp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HouseHelpTests/HouseHelpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1572A86D17EBDD4A003F54F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HouseHelp.app/HouseHelp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseHelp/HouseHelp-Prefix.pch";
+				INFOPLIST_FILE = "HouseHelpTests/HouseHelpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1572A83717EBDD4A003F54F5 /* Build configuration list for PBXProject "HouseHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572A86617EBDD4A003F54F5 /* Debug */,
+				1572A86717EBDD4A003F54F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1572A86817EBDD4A003F54F5 /* Build configuration list for PBXNativeTarget "HouseHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572A86917EBDD4A003F54F5 /* Debug */,
+				1572A86A17EBDD4A003F54F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1572A86B17EBDD4A003F54F5 /* Build configuration list for PBXNativeTarget "HouseHelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1572A86C17EBDD4A003F54F5 /* Debug */,
+				1572A86D17EBDD4A003F54F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1572A83417EBDD4A003F54F5 /* Project object */;
+}
